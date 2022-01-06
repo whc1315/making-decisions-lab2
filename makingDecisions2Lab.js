@@ -8,9 +8,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-let firstItem = (arr[0]);
+// let firstItem = (arr[0]);
 
-console.log(firstItem);
+// console.log(firstItem);
 
 ////////// PROBLEM 2 //////////
 /*
@@ -18,9 +18,9 @@ console.log(firstItem);
 */
 
 //Code Here
-let lastItemRemoved = arr.pop()
+// let lastItemRemoved = arr.pop()
 
-console.log(arr)
+// console.log(arr)
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
@@ -33,9 +33,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-for (let i = 0; i < family.length; i++){
-  console.log(family[i])
-}
+// for (let i = 0; i < family.length; i++){
+//   console.log(family[i])
+// }
 
 ////////// PROBLEM 4 //////////
 
@@ -50,14 +50,14 @@ let evensArr = []
 
 //Code Here
 
-for (let i = 0; i < nums.length; i++){
-  if (nums[i] % 2 === 0){
-    evensArr.push(nums[i]);
-    //console.log(evensArr);
-    }
-  }
+// for (let i = 0; i < nums.length; i++){
+//   if (nums[i] % 2 === 0){
+//     evensArr.push(nums[i]);
+//     //console.log(evensArr);
+//     }
+//   }
 
-console.log(evensArr)
+// console.log(evensArr)
 //console.log(nums)
 
 ////////// PROBLEM 5 //////////
@@ -72,23 +72,23 @@ var score = 74
 
 //Code Here
 
-if (score >= 90) {
-  console.log('A')
-} else if (score >= 80){
-  console.log('B')
-} else if (score >= 70){
-  console.log('C')
-} else if (score >= 60){
-  console.log('D')
-} else {
-  console.log('F')
-}
+// if (score >= 90) {
+//   console.log('A')
+// } else if (score >= 80){
+//   console.log('B')
+// } else if (score >= 70){
+//   console.log('C')
+// } else if (score >= 60){
+//   console.log('D')
+// } else {
+//   console.log('F')
+// }
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,1,2,3,4];
 // Do not edit the code above.
 
 /*
@@ -98,7 +98,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 //Code Here
 
 let someNum = myFavoriteNumbers[4]
-console.log(someNum)
+// console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -107,7 +107,12 @@ console.log(someNum)
 
 //Code Here
 
-
+if (myFavoriteNumbers.length < 7){
+  console.log('There are not enough elements in this array.')
+} else if (myFavoriteNumbers.length >= 7) {
+  someNum = (myFavoriteNumbers[7])
+    console.log(someNum)
+  }
 ////////// PROBLEM 8 //////////
 
 // Do not edit the code below.
